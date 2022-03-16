@@ -3,7 +3,7 @@
 
 解决方法：清除原配置的/etc/config/下system, network, dhcp后可在线更新
 
-##模板
+## 模板
 
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
