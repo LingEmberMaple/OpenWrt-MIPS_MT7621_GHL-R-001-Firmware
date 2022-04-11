@@ -1,7 +1,7 @@
 ## 已知问题
 - 不支持的映像
 
-  -解决方法：清除原配置的/etc/config/下system, network, dhcp后可在线更新
+  - 解决方法：清除原配置的/etc/config/下system, network, dhcp后可在线更新
 
 ## 模板
 
