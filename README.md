@@ -5,6 +5,12 @@
 - 不支持的映像
 
   - 解决方法：清除**原配置**的**/etc/config/**下**system**, **network**, **dhcp**后可在线更新
+  
+## 感谢
+[kenzok8
+/
+[small-package](https://github.com/kenzok8/small-package)
+[coolsnowwolf/lede#7796](https://github.com/coolsnowwolf/lede/pull/7796)
 
 ## 模板
 
