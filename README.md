@@ -6,6 +6,10 @@
 
   - 解决方法：清除**原配置**的**/etc/config/**下**system**, **network**, **dhcp**后可在线更新
   
+- WIFI不自启
+
+  - 解决方法：
+  
 ## 感谢
 [kenzok8/small-package](https://github.com/kenzok8/small-package)
 
