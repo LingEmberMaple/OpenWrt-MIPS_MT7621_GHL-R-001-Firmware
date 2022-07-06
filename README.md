@@ -22,7 +22,7 @@ start() {
   brctl addif br-lan rai0
 }
 ```
-放到/etc/init.d/start_wifi 然后执行 chmod 755 start_wifi && /etc/init.d/start_wifi enable
+放到/etc/init.d/start_wifi 然后执行 `chmod 755 start_wifi && /etc/init.d/start_wifi enable`
 
 ## 感谢
 [kenzok8/small-package](https://github.com/kenzok8/small-package)
