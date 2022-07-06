@@ -1,5 +1,5 @@
 ## 注意事项
-务必关闭**Turbo ACC 网络加速**中的**软件流量分载**与**硬件流量分载**，否则将无法正常上网
+务必关闭**Turbo ACC 网络加速**中的**软件流量分载**与**硬件流量分载**，**否则**将**无法正常上网**
 
 ## 已知问题
 - 不支持的映像([coolsnowwolf/lede#7413](https://github.com/coolsnowwolf/lede/issues/7413))
@@ -8,9 +8,9 @@
   
 - WIFI不自启([coolsnowwolf/lede#8787](https://github.com/coolsnowwolf/lede/issues/8787))
 
-  - 解决方法：添加启动项
+  - 解决方法：添加**启动项**
 
-脚本内容
+**脚本**内容
 ```
 #!/bin/sh /etc/rc.common
 START=99
@@ -22,7 +22,7 @@ start() {
   brctl addif br-lan rai0
 }
 ```
-放到/etc/init.d/start_wifi 然后执行 /etc/init.d/start_wifi enable
+放到/etc/init.d/start_wifi 然后执行 chmod 755 start_wifi && /etc/init.d/start_wifi enable
 
 ## 感谢
 [kenzok8/small-package](https://github.com/kenzok8/small-package)
